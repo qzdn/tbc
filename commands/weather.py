@@ -36,10 +36,10 @@ async def get_weather_info(
     Get current weather for a city.
     
     StreamElements: add this text in "Response type" field:
-    ${customapi.https://example.com/weather?city=$(1:)}
+    ${customapi.https://tbc-rksp.onrender.com/weather?city=$(1:)}
     
     If you want additional info like wind, humidity, pressure or precipitation, just add one or all of them as parameters:\n
-    ${customapi.https://example.com/weather?city=$(1:)&wind=true&humidity=true&pressure=true&precipitation=true}\n
+    ${customapi.https://tbc-rksp.onrender.com/weather?city=$(1:)&wind=true&humidity=true&pressure=true&precipitation=true}\n
 
     Chat example: !weather Moscow
     """

@@ -11,9 +11,9 @@ async def get_lastfm_info(user: str = Query("dj", description="Last.fm username"
     Get user's currently playing track from Last.fm.
     
     StreamElements: add this text in "Response type" field:\n
-    ${customapi.https://example.com/lastfm?user=$(1:)}
+    ${customapi.https://tbc-rksp.onrender.com/lastfm?user=your_username}
     
-    Chat example: !lastfm username
+    Chat example: !track
     """
     api_key = os.getenv("LASTFM_API_KEY")
     

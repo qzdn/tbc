@@ -53,7 +53,7 @@ async def get_hltb_info(
     Get game completion time from HowLongToBeat.
     
     StreamElements: add this text in "Response type" field:\n
-    ${customapi.https://example.com/hltb?game=$(querystring)&show_url=true}
+    ${customapi.https://tbc-rksp.onrender.com/hltb?game=$(1:)&show_url=true}
     
     Chat example: !hltb Elden Ring\n 
     
