@@ -6,7 +6,7 @@ import os
 router = APIRouter(tags=["lastfm"])
 
 @router.get("/lastfm", response_class=PlainTextResponse)
-async def get_lastfm_info(user: str = Query(..., description="Last.fm username")):
+async def get_lastfm_info(user: str = Query("dj", description="Last.fm username")):
     """
     Get user's currently playing track from Last.fm.
     

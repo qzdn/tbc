@@ -45,7 +45,7 @@ def _extract_year_from_query(game: str) -> Tuple[str, Optional[int]]:
 
 
 @router.get("/hltb", response_class=PlainTextResponse)
-async def get_hltb(
+async def get_hltb_info(
     game: str = Query(..., description="Game name, optionally with \*\*YEAR for filtering (e.g., 'doom\*\*1993')"),
     show_url: bool = Query(False, description="Include HLTB URL in response")
 ):
