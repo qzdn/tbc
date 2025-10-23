@@ -1,11 +1,8 @@
 from fastapi import FastAPI
 from fastapi.responses import PlainTextResponse
 from commands import lastfm, weather, hltb
-from dotenv import load_dotenv
-import httpx
 import uvicorn
 
-load_dotenv()
 app = FastAPI(title="Twitch bot commands")
 
 app.include_router(lastfm.router)

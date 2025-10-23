@@ -13,7 +13,7 @@ $ cp .env.example .env      # Paste your API keys in the .env file
 $ uv venv -p 3.13
 $ source .venv/bin/activate
 $ uv pip install --no-cache -r pyproject.toml
-$ uv run fastapi run main.py --host 0.0.0.0 --port 8000
+$ uv run --env-file .env fastapi run main.py --host 0.0.0.0 --port 8000
 $ firefox 127.0.0.1:8000
 ```
 
@@ -23,7 +23,7 @@ $ git clone https://github.com/qzdn/tbc.git
 $ cd tbc
 $ cp .env.example .env      # Paste your API keys in the .env file
 $ docker build . -t tbc-image
-$ docker run --name tbc-container -d -p 80:10000 --env-file=.env tbc-image
+$ docker run --env-file=.env --name tbc-container -d -p 80:10000 tbc-image
 $ firefox 127.0.0.1
 ```
 
