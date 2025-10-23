@@ -12,7 +12,7 @@ $ cd tbc
 $ cp .env.example .env      # Paste your API keys in the .env file
 $ uv venv -p 3.13
 $ source .venv/bin/activate
-$ uv pip install --no-cache -r pyproject.toml
+$ uv sync --frozen --no-cache
 $ uv run --env-file .env fastapi run main.py --host 0.0.0.0 --port 8000
 $ firefox 127.0.0.1:8000
 ```
