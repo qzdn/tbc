@@ -336,7 +336,7 @@ wheels = [
 
 [[package]]
 name = "howlongtobeatpy"
-version = "1.0.19"
+version = "1.0.21"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "aiohttp" },
@@ -345,9 +345,9 @@ dependencies = [
     { name = "fake-useragent" },
     { name = "requests" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/67/f3/1c65a43f072ab65d9fd509279491b67b6c541ad25653896a3ec0d4dbd6cb/howlongtobeatpy-1.0.19.tar.gz", hash = "sha256:c57d5beff4c8e5f7b646bbb1fea70f2f86ae317a3feaae110bf8ee59fbb858f4", size = 16073, upload-time = "2025-11-27T12:07:52.301Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/e2/82/29fa79d5f81db10d3efb1bb891ed202d910bde406b722a9dd4e4da18fa68/howlongtobeatpy-1.0.21.tar.gz", hash = "sha256:90f957a1700787ebc9df5ea1136db787780e993c2ec4ccf6e136a958b4ae044b", size = 16419, upload-time = "2026-03-31T12:26:27.568Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/90/0c/a3c1bd16715a3f246e6dd7a9a45a71da602180b496e16edf8b6f598af647/howlongtobeatpy-1.0.19-py3-none-any.whl", hash = "sha256:7f308f0c23c787169eabc6d91dbf464454bb548882013b321283f51c3a325b27", size = 13355, upload-time = "2025-11-27T12:07:51.045Z" },
+    { url = "https://files.pythonhosted.org/packages/7c/ac/02cbb49d03690b4422a30b8f7c4bc89d78e422e59c0168b63d36e6d866a3/howlongtobeatpy-1.0.21-py3-none-any.whl", hash = "sha256:396db78b0246185f76a353625a0fb79844636a10801ffaab3e0c571f5cecb082", size = 13724, upload-time = "2026-03-31T12:26:26.298Z" },
 ]
 
 [[package]]
